@@ -9,5 +9,4 @@ Friend Finder application is simular to a dating application.  This full-stack s
 1. Node
 1. Heroku
 
-Please checkout https://jgwynn36.github.io/Bootscrap-Portfolio/ - automatic!
-[my Portfolio](https://jgwynn36.github.io/Bootscrap-Portfolio/)
+Please checkout [my Portfolio](https://jgwynn36.github.io/Bootscrap-Portfolio/)
