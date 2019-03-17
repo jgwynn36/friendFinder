@@ -1,6 +1,6 @@
 const friends = [{
-        "name": "Ty",
-        "photo": "",
+        "name": "Ty Willis",
+        "photo": "https://www.pexels.com/photo/adorable-animal-breed-canine-356378/",
         "scores": [
             5,
             4,
@@ -10,8 +10,8 @@ const friends = [{
         ]
     },
     {
-        "name": "Shelia",
-        "photo": "",
+        "name": "Shelia Harris",
+        "photo": "https://www.pexels.com/photo/man-standing-while-holding-puppy-1849974/",
         "scores": [
             5,
             4,
@@ -21,8 +21,8 @@ const friends = [{
         ]
     },
     {
-        "name": "Kevin",
-        "photo": "",
+        "name": "Kevin Gates",
+        "photo": "https://www.pexels.com/photo/blue-flat-bar-bike-beside-yellow-labrador-retriever-215297/",
         "scores": [
             5,
             4,
@@ -32,8 +32,8 @@ const friends = [{
         ]
     },
     {
-        "name": "Will",
-        "photo": "",
+        "name": "Will Smith",
+        "photo": "https://www.pexels.com/photo/man-on-white-horse-next-to-dog-on-grassy-field-162520/",
         "scores": [
             5,
             4,
