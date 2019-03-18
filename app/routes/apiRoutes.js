@@ -13,6 +13,27 @@ module.exports = function (app) {
         let userScore = userInput.scores;
         console.log("Score " + userScore);
 
-    });
+        let matchName = '';
+        let matchImage = "";
+        const totalDiff = 1000;
 
+        for (let i = 0; i < friends.length; i++) {
+            let diff = 0;
+            for (let j = 0; j < userResponses.length; j++) {
+                diff += Math.abs(friends[i].scores[j] - userResponses[j]);
+            }
+            if (diff < totalDiff) {
+                totalDiff = diff;
+                matchName = friends[i].name;
+                matchImage = friends[i].photo;
+            }
+        }
+        friends.push(userInput);
+
+        res.json({
+            status: "Ok",
+            matchName: matchName,
+            matchImage: matchImage
+        });
+    });
 };

@@ -13,9 +13,9 @@ const friends = [{
         "name": "Shelia Harris",
         "photo": "https://www.pexels.com/photo/man-standing-while-holding-puppy-1849974/",
         "scores": [
-            5,
-            4,
-            3,
+            1,
+            1,
+            1,
             2,
             1
         ]
@@ -26,9 +26,9 @@ const friends = [{
         "scores": [
             5,
             4,
-            3,
             2,
-            1
+            2,
+            2
         ]
     },
     {
@@ -36,8 +36,8 @@ const friends = [{
         "photo": "https://www.pexels.com/photo/man-on-white-horse-next-to-dog-on-grassy-field-162520/",
         "scores": [
             5,
-            4,
             3,
+            1,
             2,
             1
         ]
